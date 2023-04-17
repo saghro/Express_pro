@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 40px;
+        }
+        
+        h2 {
+            color: #008080;
+            margin-top: 30px;
+        }
+        
+        p {
+            margin: 20px;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            color: #008080;
+        }
+        
+        li:before {
+            content: "•";
+            margin-right: 5px;
+            color: #333;
+        }
+        
+        .services-container {
+            margin: 20px;
+        }
+        
+        .service {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        
+        .service img {
+            max-width: 150px;
+            margin-right: 20px;
+        }
+        
+        .service-content {
+            flex: 1;
+        }
+        
+        .service h3 {
+            color: #333;
+            margin-top: 0;
+        }
+        
+        .service p {
+            margin-bottom: 0;
+        }
+        
+        .navbar {
+            background-color: #008080;
+            overflow: hidden;
+        }
+        
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .navbar a:hover {
+            background-color: #006666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/services">Our Services</a>
+        <a href="/contact">Contact Us</a>
+    </div>
+    <h1>Services Page</h1>
+    <div class="services-container">
+        <div class="service">
+            <img src="service1.jpg" alt="Service 1">
+            <div class="service-content">
+                <h3>Service 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula libero vel vestibulum.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="service2.jpg" alt="Service 2">
+            <div class="service-content">
+                <h3>Service 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula libero vel vestibulum.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="service3.jpg" alt="Service 3">
+            <div class="service-content">
+                <h3>Service 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula libero vel vestibulum.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
